@@ -1,0 +1,164 @@
+@charset "utf-8";
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,800i,900|Quicksand:300,400,500,700&subset=cyrillic,cyrillic-ext,latin-ext,vietnamese');
+
+/*-------------General Style---------------------------------------*/
+
+html {
+    overflow-x: hidden !important;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    font-size: 10px;
+    height: 100%;
+    text-align: center;
+    background:white;
+    color:black;
+    font-family:   Geneva, Tahoma;
+}
+
+@-o-viewport {
+    width: device-width;
+}
+
+@-ms-viewport {
+    width: device-width;
+}
+
+@viewport {
+    width: device-width;
+}
+
+
+/*--------------Typography--------------------------------------*/
+
+p {
+    font-size: 11px;
+    line-height: 25px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    color: black;
+}
+
+
+
+/*-----BLINK-----*/
+.blink {
+    animation: blinker 4s linear infinite;
+    color: green;
+    font-size: 10px;
+    font-weight: lighter;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    ;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+
+.blink-2 {
+    animation: blinker 4s linear infinite;
+    color: red;
+    font-size: 10px;
+    font-weight: lighter;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    ;
+}
+
+@keyframes blinker .blink-2{
+    50% {
+        opacity: 0;
+    }
+}
+
+
+/*-----BLINK-----*/
+
+.image-border{
+
+   
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 100%;
+}
+
+/* ----------------my styles for user-more-------------------- */
+
+.main-container {
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.main-container img {
+    width: 100%;
+    height: 100%;
+}
+
+
+ol{
+    list-style: none;
+
+}
+
+ol li {
+    font-size: 10px;
+    line-height: 15px;
+    padding-bottom: 8px;
+    font-weight: 900;
+    color:black;
+    animation: blinker 5s linear infinite;
+    font-weight: lighter;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    ;
+}
+
+@keyframes li {
+    50% {
+        opacity: 0;
+    }
+}
+
+
+h1 h2 {
+
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 15px;
+    height: 100%;
+    color:black;
+    font-family:   cambria;
+    
+
+}
+
+h2{
+    
+    color:rgb(207, 9, 9);
+    animation: blinker 5s linear infinite;
+    font-weight: lighter;
+    font-family: Georgia, "Times New Roman", Times, serif;
+
+}
+
+@keyframes h2{
+    50% {
+        opacity: 0;
+    }
+}
